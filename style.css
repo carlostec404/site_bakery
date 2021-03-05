@@ -1,0 +1,407 @@
+/*
+Theme Name: portal ba bakery
+Theme URI: http://localhost/portal
+Author: Carlos Alberto
+Description: Tema criado para seleção melhorcom 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background: #D6CEBF;
+}
+#subir{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    opacity: .8;
+}
+.jumbotron.jumbotron-fluid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    height: 130px;
+
+    background: #BFB5A2 0% 0% no-repeat padding-box;
+}
+header h1{
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #FFFFFF;
+    left: 181px;
+    margin-top: 145px;
+}
+header span{
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 195px;
+    left: 13%;
+}
+header a{
+    
+    position: absolute;
+    width: 270px;
+    height: 38px;
+    border-radius: 29px;
+
+    font-family:'Noto Sans', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    background: #D6613E;
+    left: 176px;
+    top: 440px;
+    text-align: center;
+}
+header a:link{
+    text-decoration: none;
+    text-align: center;
+    
+}
+header a:hover{
+    color: #fff;
+    background: #e44e21;
+}
+header img{
+    width: 100%;
+    
+}
+.nav.nav{
+    justify-content: flex-end;
+
+    
+}
+.menu{
+    padding-right: 90px;
+}
+.menu nav a{
+    color: #303030!important;
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+}
+
+
+.logo{
+        width: 186px;
+        height: 198px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        margin-top: -65px;
+        border-radius: 0 0 9px 9px;
+        z-index: 1;
+}
+
+section#history{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+
+    padding: 90px;
+    background: #EFEFEF;
+}
+section#history .col-5{
+    margin-top: 100px;
+}
+section#history .col-5 span{
+    color: #646464;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+section#history .col-5 span::after{
+    display: table;
+    content: " ";
+    width: 111px;
+    height: 3px;
+    background: #D6613E;
+    
+    margin-top: 20px;
+}
+section#history .col-5 p{
+    color: #646464;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    width: 440px;
+    height: 300px;
+    text-align: left;
+    margin-top: 60px;
+    line-height: 31px;
+}
+
+
+section#produt{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #EFEFEF;
+    flex-direction: column;
+}
+
+section#produt span{
+    font-size: 32px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: #646464;
+    height: 70px;
+    text-transform: capitalize;
+    width: 100px;
+    margin-left: 174px;
+
+}
+section#produt span::after{
+    display: table;
+    content: " ";
+    width: 111px;
+    height: 3px;
+    background: #D6613E;
+    
+    margin-top: 20px;
+
+}
+section#produt .ar-dois{
+    margin-bottom: 0;
+}
+section#produt .area-card{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+   padding: 130px 90px 0 115px;
+}
+section#produt .prod-card{
+    width: 270px;
+    height: 430px;
+    margin-bottom: 50px;
+    background: #fff;
+    transition: 0.3s;
+}
+section#produt .prod-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0.25);
+}
+
+section#produt .prod-img{
+    width: 270px;
+    height: 330px;
+}
+section#produt .prod-text{
+    padding: 17px;
+}
+section#produt .prod-text h1{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: #D6613E;
+}
+section#produt .prod-text p{
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 16px;
+   color: #646464;
+
+}
+
+section#produt button {
+        width: 140px;
+        text-align: center;
+        margin-top: 50px;
+        color: #fff;
+        margin-left: 46%;
+        border-radius: 33px;
+        background: #D6613E;
+        border: none;
+}
+section#produt button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0.25);
+}
+section#contato{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 173px;
+    background: #EFEFEF;
+}
+section#contato .formulario form{
+    margin-top: 40px;
+}
+section#contato .formulario span{
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    color: #858585;
+}
+section#contato .formulario label{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #858585;
+    text-align: left;
+}
+section#contato .formulario input{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #858585;
+    border-radius: 0;
+}
+section#contato .formulario textarea{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #858585;
+    border-radius: 0;
+}
+section#contato .formulario input.btn{
+    width: 176px;
+    height: 40px;
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    margin-left: 17%;
+    border-radius: 33px;
+    background: #D6613E;
+    border: none;
+}
+section#contato .formulario input.btn:hover{
+    background: #e44e21;
+}
+
+
+
+section#contato .mapa{
+    width: 480px;
+    height: 511px;
+    background: #D6613E;
+    padding: 40px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+section#contato .mapa img{
+    width: 370px;
+    height: 243px;
+    transition: 0.3s;
+    
+}
+
+section#contato .mapa img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0.25);
+}
+
+section#contato .mapa span{
+    font-size: 25px;
+    font-family:'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+section#contato .mapa .ic{
+    width: 18px;
+    height: 18px;
+    line-height: 0;
+    margin-top: 14px;
+}
+section#contato .mapa p{
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 330px;
+    width: 355px;
+    line-height: 16px;
+    padding-left: 21px;
+}
+section#contato .mapa input.btn{
+    width: 182px;
+    border-radius: 26px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 33px;
+    margin-left: 9px;
+}
+section#contato .mapa input.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0.25);
+}
+section#contato .mapa li.list-group-item{
+    background: transparent;
+    border: none;
+}
+section#footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #EFEFEF;
+}
+section#footer ul li.list-group-item{
+    background: transparent;
+    border: none;
+}
+
+section#footer ul li.contact{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #858585;
+    padding: 2px;
+    margin-left: 120px;
+}
+section#footer ul li.eft::after{
+    display: table;
+    content: " ";
+    width: 111px;
+    height: 3px;
+    background: #858585;
+}
+section#footer ul li.ender{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    width: 311px;
+    color: #858585;
+    padding: 2px;
+    margin-left: 120px;
+    text-align: left;
+    line-height: 15px;
+}
+.gr-text{
+    margin-top: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: #EFEFEF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color: #858585;
+    text-align: center;
+}
+footer::after{
+    display: table;
+    content: " ";
+    width: 111px;
+    height: 3px;
+    background: #D6613E;
+    
+    margin-top: 20px;
+}
